@@ -1,0 +1,18 @@
+{
+	"display": {
+		"title": "Interactive Tables and Chairs",
+		"description": "v2.0.1",
+		"icon": {
+			"item": "minecraft:oak_pressure_plate",
+			"nbt": "{CustomModelData: 6555}"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"parent": "chuckchuk:chuckchuk"
+}
