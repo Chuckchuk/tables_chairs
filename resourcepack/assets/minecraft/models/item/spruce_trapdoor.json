@@ -1,0 +1,16 @@
+{
+    "parent": "block/spruce_trapdoor_bottom",
+    "textures": {
+        "texture": "block/spruce_trapdoor",
+        "edge": "block/spruce_trapdoor_edge"
+	},
+	"overrides": [
+    
+        { "predicate": {"custom_model_data": 6550}, "model": "table/spruce/spruce_4l"},
+        { "predicate": {"custom_model_data": 6551}, "model": "table/spruce/spruce_mid"},
+        { "predicate": {"custom_model_data": 6552}, "model": "table/spruce/spruce_1l"},
+        { "predicate": {"custom_model_data": 6553}, "model": "table/spruce/spruce_2l"},
+        { "predicate": {"custom_model_data": 6554}, "model": "table/spruce/spruce_ml"},
+        { "predicate": {"custom_model_data": 80010}, "model": "bookshelf/spruce_bookshelf"}
+	]
+}

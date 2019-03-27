@@ -1,0 +1,30 @@
+
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/map"
+	},
+	"overrides": [
+        { "predicate": {"custom_model_data": 80011}, "model": "bookshelf/paper1"},
+        { "predicate": {"custom_model_data": 80012}, "model": "bookshelf/paper2"},
+        { "predicate": {"custom_model_data": 80013}, "model": "bookshelf/paper3"},
+        { "predicate": {"custom_model_data": 80014}, "model": "bookshelf/paper4"},
+        { "predicate": {"custom_model_data": 80015}, "model": "bookshelf/paper5"},
+        { "predicate": {"custom_model_data": 80016}, "model": "bookshelf/paper6"},
+        
+        { "predicate": {"custom_model_data": 80021}, "model": "bookshelf/s_book1"},
+        { "predicate": {"custom_model_data": 80022}, "model": "bookshelf/s_book2"},
+        { "predicate": {"custom_model_data": 80023}, "model": "bookshelf/s_book3"},
+        { "predicate": {"custom_model_data": 80024}, "model": "bookshelf/s_book4"},
+        { "predicate": {"custom_model_data": 80025}, "model": "bookshelf/s_book5"},
+        { "predicate": {"custom_model_data": 80026}, "model": "bookshelf/s_book6"},
+        
+        { "predicate": {"custom_model_data": 80031}, "model": "bookshelf/book1"},
+        { "predicate": {"custom_model_data": 80032}, "model": "bookshelf/book2"},
+        { "predicate": {"custom_model_data": 80033}, "model": "bookshelf/book3"},
+        { "predicate": {"custom_model_data": 80034}, "model": "bookshelf/book4"},
+        { "predicate": {"custom_model_data": 80035}, "model": "bookshelf/book5"},
+        { "predicate": {"custom_model_data": 80036}, "model": "bookshelf/book6"}
+        
+		]
+}

@@ -1,0 +1,14 @@
+{
+	"criteria": {
+		"recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "tables_chairs:chair/acacia_f"
+				
+			}
+		}
+	},
+	"rewards": {
+		"function": "tables_chairs:recipes/chair/acacia_f"
+	}
+}

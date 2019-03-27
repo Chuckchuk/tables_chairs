@@ -1,0 +1,23 @@
+{
+    "parent": "block/iron_trapdoor_bottom",
+    "textures": {
+        "texture": "block/iron_trapdoor",
+        "edge": "block/iron_trapdoor_edge"
+	},
+	"overrides": [
+    
+		{ "predicate": {"custom_model_data": 80021}, "model": "bookshelf/stone_bookshelf"},
+        { "predicate": {"custom_model_data": 80022}, "model": "bookshelf/sandstone_bookshelf"},
+        { "predicate": {"custom_model_data": 80023}, "model": "bookshelf/cobblestone_bookshelf"},
+        { "predicate": {"custom_model_data": 80024}, "model": "bookshelf/brick_bookshelf"},
+        { "predicate": {"custom_model_data": 80025}, "model": "bookshelf/stone_brick_bookshelf"},
+        { "predicate": {"custom_model_data": 80026}, "model": "bookshelf/nether_brick_bookshelf"},
+        { "predicate": {"custom_model_data": 80027}, "model": "bookshelf/quartz_bookshelf"},
+        { "predicate": {"custom_model_data": 80028}, "model": "bookshelf/red_sandstone_bookshelf"},
+        { "predicate": {"custom_model_data": 80029}, "model": "bookshelf/purpur_bookshelf"},
+        { "predicate": {"custom_model_data": 80030}, "model": "bookshelf/prismarine_bookshelf"},
+        { "predicate": {"custom_model_data": 80031}, "model": "bookshelf/prismarine_brick_bookshelf"},
+        { "predicate": {"custom_model_data": 80032}, "model": "bookshelf/dark_prismarine_bookshelf"}
+        
+	]
+}

@@ -1,0 +1,11 @@
+{
+    "parent": "block/pressure_plate_up",
+    "textures": {
+        "texture": "block/spruce_planks"
+	},
+	"overrides": [
+    
+		{ "predicate": {"custom_model_data": 6555}, "model": "chair/spruce"},
+        { "predicate": {"custom_model_data": 6556}, "model": "chair/f_spruce"}
+	]
+}

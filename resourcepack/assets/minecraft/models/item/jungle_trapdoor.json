@@ -1,0 +1,12 @@
+{
+    "parent": "block/jungle_trapdoor_bottom",
+    "textures": {
+        "texture": "block/jungle_trapdoor",
+        "edge": "block/jungle_trapdoor_edge"
+	},
+	"overrides": [
+    
+		{ "predicate": {"custom_model_data": 6550}, "model": "table/jungle_1x1"},
+        { "predicate": {"custom_model_data": 80010}, "model": "bookshelf/jungle_bookshelf"}
+	]
+}

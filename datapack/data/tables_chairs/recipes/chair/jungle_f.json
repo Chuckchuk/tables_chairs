@@ -1,0 +1,21 @@
+{
+	"type": "crafting_shaped",
+	"group": "chair",
+	"pattern": [
+		"_  ",
+        "__ ",
+		"## "
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:jungle_fence"
+		},
+		"_": {
+			"item": "minecraft:jungle_stairs"
+		}
+	},
+	"result": {
+		"item": "minecraft:knowledge_book",
+		"count": 1
+	}
+}

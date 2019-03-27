@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"place": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:heavy_weighted_pressure_plate",
+					"nbt": "{Tags:[chk.marble_throne]}"
+					}
+				}
+			}
+		},
+	"rewards": {
+		"function": "tables_chairs:chairs/place/place"
+	}
+}

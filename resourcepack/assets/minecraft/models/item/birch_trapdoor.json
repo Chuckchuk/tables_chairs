@@ -1,0 +1,21 @@
+{
+    "parent": "block/birch_trapdoor_bottom",
+    "textures": {
+        "texture": "block/birch_trapdoor",
+        "edge": "block/birch_trapdoor_edge"
+	},
+	"overrides": [
+    
+		{ "predicate": {"custom_model_data": 6550}, "model": "table/birch/birch_4l"},
+        { "predicate": {"custom_model_data": 6551}, "model": "table/birch/birch_mid"},
+        { "predicate": {"custom_model_data": 6552}, "model": "table/birch/birch_1l"},
+        { "predicate": {"custom_model_data": 6553}, "model": "table/birch/birch_2l"},
+        { "predicate": {"custom_model_data": 6554}, "model": "table/birch/birch_ml"},
+        { "predicate": {"custom_model_data": 6560}, "model": "table/marble/marble_4l"},
+        { "predicate": {"custom_model_data": 6561}, "model": "table/marble/marble_mid"},
+        { "predicate": {"custom_model_data": 6561}, "model": "table/marble/marble_1l"},
+        { "predicate": {"custom_model_data": 6561}, "model": "table/marble/marble_2l"},
+        { "predicate": {"custom_model_data": 6564}, "model": "table/marble/marble_ml"},
+        { "predicate": {"custom_model_data": 80010}, "model": "bookshelf/birch_bookshelf"}
+	]
+}

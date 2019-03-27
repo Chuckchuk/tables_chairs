@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"place": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:birch_pressure_plate",
+					"nbt": "{Tags:[chk.reg_chair]}"
+					}
+				}
+			}
+		},
+	"rewards": {
+		"function": "tables_chairs:chairs/place/place"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "table/wool/table_wool",
+	"textures": {
+		"1": "block/blue_wool",
+		"particle": "block/blue_wool"
+    }
+}

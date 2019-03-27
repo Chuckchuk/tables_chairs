@@ -1,0 +1,12 @@
+{
+    "parent": "block/dark_oak_trapdoor_bottom",
+    "textures": {
+        "texture": "block/dark_oak_trapdoor",
+        "edge": "block/dark_oak_trapdoor_edge"
+	},
+	"overrides": [
+    
+		{ "predicate": {"custom_model_data": 6550}, "model": "table/dark_oak_1x1"},
+        { "predicate": {"custom_model_data": 80010}, "model": "bookshelf/dark_oak_bookshelf"}
+	]
+}

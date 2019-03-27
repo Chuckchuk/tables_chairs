@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shaped",
+	"group": "custom_fence",
+	"pattern": [
+		"___",
+		"# #"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:birch_fence"
+		},
+		"_": {
+			"item": "minecraft:birch_slab"
+		}
+	},
+	"result": {
+		"item": "minecraft:knowledge_book",
+		"count": 2
+	}
+}

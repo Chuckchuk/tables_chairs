@@ -1,0 +1,18 @@
+{
+    "parent": "block/oak_trapdoor_bottom",
+    "textures": {
+        "texture": "block/oak_trapdoor",
+        "edge": "block/oak_trapdoor_edge"
+	},
+	"overrides": [
+    
+		{ "predicate": {"custom_model_data": 6550}, "model": "table/oak/oak_4l"},
+        { "predicate": {"custom_model_data": 6551}, "model": "table/oak/oak_mid"},
+        { "predicate": {"custom_model_data": 6552}, "model": "table/oak/oak_1l"},
+        { "predicate": {"custom_model_data": 6553}, "model": "table/oak/oak_2l"},
+        { "predicate": {"custom_model_data": 6554}, "model": "table/oak/oak_ml"},
+        { "predicate": {"custom_model_data": 80010}, "model": "bookshelf/oak_bookshelf"}
+
+        
+	]
+}

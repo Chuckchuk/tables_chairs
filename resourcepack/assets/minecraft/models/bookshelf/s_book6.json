@@ -1,0 +1,134 @@
+{
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"textures": {
+		"0": "block/anvil",
+		"2": "books/redblack_book",
+		"3": "books/pages",
+		"5": "books/green_book2",
+		"12": "books/leather1",
+		"particle": "books/redblack_book"
+	},
+	"elements": [
+		{
+			"name": "Book1",
+			"from": [13.99, 0.5, 3.65],
+			"to": [15.49, 5, 7.75],
+			"faces": {
+				"east": {"uv": [0.5, 0, 5.25, 4.5], "texture": "#2"},
+				"south": {"uv": [1.5, 0, 3, 4.5], "texture": "#2"},
+				"west": {"uv": [2.5, 0, 7.25, 4.5], "texture": "#2"}
+			}
+		},
+		{
+			"name": "Paper1",
+			"from": [13.99, 0.5, 3.75],
+			"to": [15.49, 4.9, 7.75],
+			"faces": {
+				"up": {"uv": [6.5, 8, 8, 12], "texture": "#3"}
+			}
+		},
+		{
+			"name": "Book1.2",
+			"from": [12.98, 0, 3.75],
+			"to": [13.98, 6, 8],
+			"faces": {
+				"east": {"uv": [0, 9.5, 4.25, 15.5], "texture": "#5"},
+				"south": {"uv": [0, 9.5, 1, 15.5], "texture": "#5"},
+				"west": {"uv": [0, 9.5, 4.25, 15.5], "texture": "#5"}
+			}
+		},
+		{
+			"name": "Paper1.2",
+			"from": [12.98, 0.5, 3.75],
+			"to": [13.98, 5.9, 7.75],
+			"faces": {
+				"up": {"uv": [11, 3, 12, 7], "texture": "#3"}
+			}
+		},
+		{
+			"name": "Book1.3",
+			"from": [11.98, 0, 3.5],
+			"to": [12.98, 5.75, 7.75],
+			"faces": {
+				"east": {"uv": [8, 1.5, 12.25, 7.5], "texture": "#5"},
+				"south": {"uv": [6, 1.5, 7, 7.25], "texture": "#5"},
+				"west": {"uv": [1.5, 1.5, 5.75, 7.25], "texture": "#5"}
+			}
+		},
+		{
+			"name": "Paper1.3",
+			"from": [11.98, 0.5, 3.75],
+			"to": [12.98, 5.45, 7.75],
+			"faces": {
+				"up": {"uv": [0, 0, 1, 4], "texture": "#3"}
+			}
+		},
+		{
+			"name": "Paper1.5",
+			"from": [10.47, 0.4, 4],
+			"to": [11.97, 6.55, 8],
+			"faces": {
+				"up": {"uv": [7, 6.5, 8.5, 10.5], "texture": "#3"}
+			}
+		},
+		{
+			"name": "Book1.5",
+			"from": [10.47, 0.5, 4],
+			"to": [11.97, 6.75, 8],
+			"faces": {
+				"east": {"uv": [3, 3, 7, 9.25], "texture": "#12"},
+				"south": {"uv": [3, 3.5, 4.5, 9.75], "texture": "#12"},
+				"west": {"uv": [6.5, 3, 10.5, 9.25], "texture": "#12"}
+			}
+		},
+		{
+			"name": "BookHolder1",
+			"from": [10.15, 0.5, 4.25],
+			"to": [10.5, 4, 6.5],
+			"faces": {
+				"south": {"uv": [4, 5, 4.35, 8.5], "texture": "#0"},
+				"west": {"uv": [0, 0, 2.25, 3.5], "texture": "#0"},
+				"up": {"uv": [0, 0, 0.35, 2.25], "texture": "#0"}
+			}
+		},
+		{
+			"name": "BookHolder2",
+			"from": [8.4, 0.5, 4.5],
+			"to": [10.5, 0.75, 6.25],
+			"faces": {
+				"south": {"uv": [0, 0, 2.1, 0.25], "texture": "#0"},
+				"west": {"uv": [0, 0, 1.75, 0.25], "texture": "#0"},
+				"up": {"uv": [7, 10, 9.1, 11.75], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 0, 0],
+			"translation": [0, 0, 0]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 0, 90],
+			"translation": [-10.55, 6.6, -4.5],
+			"scale": [2, 2, 2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 0, 0],
+			"translation": [0, 0, 0]
+		},
+		"gui": {
+			"rotation": [30, 35, 0],
+			"translation": [0, 0, 0]
+		},
+		"head": {
+			"rotation": [0, 270, 0],
+			"translation": [10.75, -9.75, 0],
+			"scale": [2.291, 2.225, 2.32]
+		},
+		"fixed": {
+			"rotation": [0, 0, 0],
+			"translation": [0, 1, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

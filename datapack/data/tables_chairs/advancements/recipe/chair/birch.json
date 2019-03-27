@@ -1,0 +1,14 @@
+{
+	"criteria": {
+		"recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "tables_chairs:chair/birch"
+				
+			}
+		}
+	},
+	"rewards": {
+		"function": "tables_chairs:recipes/chair/birch"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"criteria": {
+		"recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "tables_chairs:table/jungle"
+				
+			}
+		}
+	},
+	"rewards": {
+		"function": "tables_chairs:recipes/table/jungle"
+	}
+}
