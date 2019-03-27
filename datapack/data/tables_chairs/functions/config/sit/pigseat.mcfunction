@@ -1,1 +1,1 @@
-scoreboard players set chk.variable chk.sittype 2
+scoreboard players set chk.sittype chk.variable 2

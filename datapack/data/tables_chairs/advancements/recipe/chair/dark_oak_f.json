@@ -8,6 +8,7 @@
 			}
 		}
 	},
+	"parent": "tables_chairs:recipe/root",
 	"rewards": {
 		"function": "tables_chairs:recipes/chair/dark_oak_f"
 	}

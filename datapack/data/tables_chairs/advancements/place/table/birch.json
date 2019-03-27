@@ -6,10 +6,11 @@
 				"item": {
 					"item": "minecraft:birch_trapdoor",
 					"nbt": "{Tags:[chk.birch_table,chk.table]}"
-					}
 				}
 			}
-		},
+		}
+	},
+	"parent": "tables_chairs:place/table/root",
 	"rewards": {
 		"function": "tables_chairs:tables/place/place"
 	}

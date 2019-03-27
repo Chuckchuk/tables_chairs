@@ -1,12 +1,9 @@
 # If trap door is open check if you have one of the special items
-
-execute as @e[type=minecraft:armor_stand,tag=chk.table] at @s if block ~ ~ ~ #trapdoors[open=true] unless block ~ ~ ~ minecraft:air run execute if entity @p[distance=..8] run function tables_chairs:tables/trapdoor/check_item
-
+execute if block ~ ~ ~ #tables_chairs:tables[open=true] if entity @p[distance=..5] run function tables_chairs:tables/trapdoor/check_item
+execute if block ~ ~ ~ #tables_chairs:tables if block ~ ~1 ~ #carpets if entity @p[distance=..5] run function tables_chairs:tables/carpet/carpet
 
 #regardless, reset the position of a trapdoor at a table
-execute as @e[type=minecraft:armor_stand,tag=chk.table] run execute at @s if block ~ ~ ~ #trapdoors[open=true] unless block ~ ~ ~ minecraft:air run function tables_chairs:tables/trapdoor/close_tdoor
-
-execute as @e[type=minecraft:armor_stand,tag=chk.table] run execute at @s if block ~ ~ ~ #trapdoors[half=bottom] unless block ~ ~ ~ minecraft:air run function tables_chairs:tables/trapdoor/close_tdoor
+execute if block ~ ~ ~ #tables_chairs:tables[open=true] run function tables_chairs:tables/trapdoor/close_tdoor
 
 #If the block is air, then run the remove command
-execute as @e[type=minecraft:armor_stand,tag=chk.table] run execute at @s if block ~ ~ ~ minecraft:air run function tables_chairs:tables/remove/remove
+execute unless block ~ ~ ~ #tables_chairs:tables[half=top] run function tables_chairs:tables/remove/remove
